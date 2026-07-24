@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Django-specific files
+*.log
+*.pot
+db.sqlite3
+local_settings.py  # Or any other file containing sensitive local settings
+
+# Virtual environment
+.env/
+venv/
+env/
+
+# Media and static files (if served locally and not intended for version control)
+media/
+static/
+
+# IDE and editor files
+.idea/  # PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage reports
+.coverage
+.tox/
+htmlcov/
+.pytest_cache/
+
+# Deployment-related files
+*.tar.gz
+*.zip
+.env
+.pylintrc
+/.github/
+test_db_connection.py
